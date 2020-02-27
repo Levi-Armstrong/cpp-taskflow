@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DH_OPTIONS
+export DH_VERBOSE=1
+
+%:
+	dh $@ -v --buildsystem=cmake
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DTF_BUILD_EXAMPLES=OFF -DTF_BUILD_TESTS=OFF -DCMAKE_BUILD_TYPE=Release
