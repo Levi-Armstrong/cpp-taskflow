@@ -1,32 +1,10 @@
-cpp-taskflow (2.3.0-alpha-0ubunut6) xenial; urgency=high
+cpp-taskflow (2.3.0-alpha-0ubunut7) bionic; urgency=high
 
   * Add G++ switch if version is not correct in rules.
-
- -- Levi Armstrong <levi.armstrong@gmail.com>  Fri, 28 Feb 2020 16:57:53 -0000
-
-cpp-taskflow (2.3.0-alpha-0ubunut4) xenial; urgency=high
-
   * Add G++ 7.3 build depends in controls file.
-
- -- Levi Armstrong <levi.armstrong@gmail.com>  Fri, 28 Feb 2020 16:57:53 -0000
-
-cpp-taskflow (2.3.0-alpha-0ubunut3) xenial; urgency=high
-
-  * Add GCC 7.3 build depends in controls file.
-
- -- Levi Armstrong <levi.armstrong@gmail.com>  Fri, 28 Feb 2020 16:57:53 -0000
-
-cpp-taskflow (2.3.0-alpha-0ubunut2) xenial; urgency=high
-
   * Set minimum cmake version in debian constrols file.
 
- -- Levi Armstrong <levi.armstrong@gmail.com>  Thu, 27 Feb 2020 16:57:53 -0000
-
-cpp-taskflow (2.3.0-alpha-0ubunut1) xenial; urgency=high
-
-  * Xenial Release
-
- -- Levi Armstrong <levi.armstrong@gmail.com>  Thu, 27 Feb 2020 16:57:53 -0000
+ -- Levi Armstrong <levi.armstrong@gmail.com>  Fri, 28 Feb 2020 16:57:53 -0000
 
 cpp-taskflow (2.3.0-alpha-0ubunut0) bionic; urgency=high
 
