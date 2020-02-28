@@ -1,3 +1,9 @@
+cpp-taskflow (2.3.0-alpha-0ubunut3) xenial; urgency=high
+
+  * Add GCC 7.3 build depends in controls file.
+
+ -- Levi Armstrong <levi.armstrong@gmail.com>  Fri, 28 Feb 2020 16:57:53 -0000
+
 cpp-taskflow (2.3.0-alpha-0ubunut2) xenial; urgency=high
 
   * Set minimum cmake version in debian constrols file.
