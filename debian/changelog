@@ -1,3 +1,9 @@
+cpp-taskflow (2.3.0-alpha-0ubunut6) xenial; urgency=high
+
+  * Add G++ switch if version is not correct in rules.
+
+ -- Levi Armstrong <levi.armstrong@gmail.com>  Fri, 28 Feb 2020 16:57:53 -0000
+
 cpp-taskflow (2.3.0-alpha-0ubunut4) xenial; urgency=high
 
   * Add G++ 7.3 build depends in controls file.
