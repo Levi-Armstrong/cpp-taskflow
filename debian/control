@@ -2,7 +2,7 @@ Source: cpp-taskflow
 Section: misc
 Priority: optional
 Maintainer: Levi Armstrong <Levi.Armstrong@swri.org>
-Build-Depends: debhelper (>= 9.0.0), cmake (>= 3.9.0), gcc (>= 7.3.0), libpthread-stubs0-dev
+Build-Depends: debhelper (>= 9.0.0), cmake (>= 3.9.0), gcc (>= 7.3.0), g++ (>= 7.3.0), libpthread-stubs0-dev
 Homepage: 
 Standards-Version: 3.9.2
 
