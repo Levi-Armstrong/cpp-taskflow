@@ -3,15 +3,8 @@
 export DH_OPTIONS
 export DH_VERBOSE=1
 
-GCCVERSIONGTEQ4 := $(shell expr `gcc -dumpversion | cut -f1 -d.` \< 7)
-CMP_FLAGS = -DTF_BUILD_EXAMPLES=OFF -DTF_BUILD_TESTS=OFF -DCMAKE_BUILD_TYPE=Release
-
-ifeq "$(GCCVERSIONGTEQ4)" "1"
-    CMP_FLAGS += -DCMAKE_CXX_COMPILER=g++-7 -DCMAKE_CC_COMPILER=gcc-7
-endif
-
 %:
 	dh $@ -v --buildsystem=cmake
 
 override_dh_auto_configure:
-	dh_auto_configure -- $(CMP_FLAGS)
+	dh_auto_configure -- -DTF_BUILD_EXAMPLES=OFF -DTF_BUILD_TESTS=OFF -DCMAKE_BUILD_TYPE=Release
