@@ -1,4 +1,4 @@
-Source: cpp-taskflow
+Source: taskflow
 Section: misc
 Priority: optional
 Maintainer: Levi Armstrong <Levi.Armstrong@swri.org>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake (>= 3.9.0), gcc (>= 7.3.0), g++ (>= 7
 Homepage: 
 Standards-Version: 3.9.2
 
-Package: cpp-taskflow
+Package: taskflow
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, 
 Description: A fast C++ *header-only* library to help you quickly write parallel programs with complex task dependencies
