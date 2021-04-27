@@ -1,3 +1,9 @@
+taskflow (3.0.0-0ubunut1) bionic; urgency=high
+
+  * Initial Release of Taskflow 3.0.0
+
+ -- Levi Armstrong <levi.armstrong@gmail.com>  Thu, 27 Apr 2020 16:57:53 -0000
+ 
 taskflow (3.0.0-0ubunut) focal; urgency=high
 
   * Initial Release of Taskflow 3.0.0
